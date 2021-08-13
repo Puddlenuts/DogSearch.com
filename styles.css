@@ -1,0 +1,25 @@
+#img-gallery {
+    justify-content: center;
+    text-align: center;
+    background-color: lightcyan;
+}
+img {
+    margin: 15px;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+button {
+    border-radius: 12px;
+    background-color: lightcyan;
+    width: 105px;
+    height: 25px;
+}
+
+button:hover {
+    filter: brightness(0.75);
+}
+
+button:active {
+    filter: brightness(0);
+}
